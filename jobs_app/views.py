@@ -19,7 +19,7 @@ class ListProfile(ListView):
 
 class CreateProfile(CreateView,LoginRequiredMixin):
     model=Application
-    fields=['phone','email','gender','profile_pic','Education_last','skills','achievements']
+    fields=['phone','email','gender','Education_last','skills','achievements']
     success_url=reverse_lazy('jobs_app:list')
 
     def form_valid(self,form):
