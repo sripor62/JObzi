@@ -30,3 +30,5 @@ FOR FRONTEND
 
 2.Cascading Style Sheet
 
+
+Used CRUD functionalities
